@@ -1,0 +1,15 @@
+var id_fields = ["Place", "Description", "Result", "Date", "number"];
+    var flag = true;
+    var  typeField = $('button#type').text();             
+
+    $.each(id_fields, function(i, id) {
+    //for (var id of id_fields) {   - not work in IE     
+        if (document.getElementById(id).value == "" ||  document.getElementById(id).value == " ")
+        {
+            document.getElementById(id).style.borderColor = "red";                               
+            flag = false;           
+        }  
+        else {
+            document.getElementById(id).style.borderColor = "rgb(204, 204, 204)";           
+        }                               
+    });
