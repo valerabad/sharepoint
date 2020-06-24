@@ -1,0 +1,8 @@
+$(document).ready(function()   {               
+    SP.SOD.executeFunc('sp.js', 'SP.ClientContext', registerClick);  
+});  
+  
+function registerClick()   {  
+    //Register File Upload Click Event  
+    $("#addFileButton").click(readFile);  
+}
