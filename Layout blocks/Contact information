@@ -1,0 +1,13 @@
+<div class="academyContactInfo">
+	<i class="ts_calendarwebparticon jolly ts_primarygrey hdg-at-symbol"></i>
+	<span class="ts_calendarwebparttitle">Contact Information</span>
+	<div class="acdmy-ci-block">
+		<div class="acdmy-ci-picture">
+			<a href="mailto:-@3shape.com">
+				<img style="width: 52px" src="/_layouts/15/userphoto.aspx?size=S&amp;username=-@3shape.com" alt="-@3shape.com">
+			</a>
+		</div>
+		<div class="acdmy-ci-uname">-</div>
+		<div class="acdmy-ci-email"><a href="mailto:accounting@3shape.com">-@3shape.com</a></div>
+	</div>
+</div>
